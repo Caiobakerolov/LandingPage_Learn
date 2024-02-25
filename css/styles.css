@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FED001;
+}
+
+body {
+  font-family: helvetica;
+}
+
+.main-header {
+  background-color: rgba(0,0,0,.8);
+  padding: 20px;
+}
+
+.head-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 2px;
+  padding-left: 150px;
+}
+
+.head-menu ul {
+  display: flex;
+  gap: 20px;
+  padding-right: 150px;
+}
+
+.head-menu a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border: 2px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 6px;
+  text-transform: uppercase; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: .9s;
+}
+
+.head-menu li {
+  list-style-type: none;
+}
+
+.head-menu a:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+.container-session1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(transparent, rgb(255, 255, 86));
+}
+
+.title-session1 {
+  font-size: 50px;
+  width: 45%;
+  line-height: 70px;
+  margin: 130px auto;
+}
+
+.session-title a {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 250px;
+  cursor: pointer;
+  transition: .9s;
+}
+
+.session-title a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.main-cursos {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.main-cursos h2 {
+  font-size: 40px;
+  padding-bottom: 70px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.main-design, .main-front, .main-back {
+  padding-bottom: 100px;
+}
+
+.container-design img, .container-front img, .container-back img {
+  display: block;
+  width: 500px;
+}
+
+.design, .front, .back {
+  border: 1px solid #ccc;
+  border-top: transparent;
+  width: 500px;
+  height: 200px;
+  border-radius: 0 0 8px 8px;
+  padding-top: 20px;
+}
+
+.container-design li, .container-front li, .container-back li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.container-design p, .container-front p, .container-back p {
+  padding-top: 20px;
+  color: #ccc;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.btn a {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  width: 400px;
+  transition: 1s;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn a:hover {
+  color: white;
+  background-color: #000;
+}
+
+.main-escola {
+  display: flex;
+  justify-content: space-around;
+  background-color: #003464;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.main-escola img {
+  margin: 0 auto;
+}
+
+.container-escola {
+  color: white;
+  padding-top: 50px;
+  width: 30%;
+  margin: 20px auto;
+}
+
+.container-escola h2 {
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-escola p {
+  line-height: 30px;
+}
+
+.container-contact h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-address {
+  text-align: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 2rem;
+}
+
+.footer {
+  background-color: #555252;
+  padding: 30px;
+  color: white;
+  text-align: right;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
